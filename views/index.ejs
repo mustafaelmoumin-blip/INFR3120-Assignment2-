@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+  <div class="container">
+    
+  <%- include('partials/nav') %>
+
+ <div class="text-center mb-5">
+    <h1>Hi, I'm Mustafa Omar</h1>
+    <h2>Networking and IT Security Student</h2>
+
+    <p>
+        I am an Ontario Tech University student studying Networking
+        and IT Security. I am passionate about technology, networking,
+        and cybersecurity.
+    </p>
+</div>
+
+<div class="row">
+
+    <div class="col-md-6 mb-4">
+        <div class="card h-100 bg-dark text-light border-secondary">
+            <div class="card-body">
+                <h2 class="card-title">Career Goals</h2>
+                <p class="card-text">
+                    My goal is to build a successful career in technology
+                    and work for a leading company such as Cisco. I am also
+                    working toward earning the Microsoft Azure Fundamentals
+                    (AZ-900) certification.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <div class="card h-100 bg-dark text-light border-secondary">
+            <div class="card-body">
+                <h2 class="card-title">Areas of Interest</h2>
+                <ul>
+                    <li>Networking</li>
+                    <li>Cybersecurity</li>
+                    <li>Cloud Computing</li>
+                    <li>Information Technology</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
