@@ -46,4 +46,14 @@ To run the website:
 
 ## Resources Used
 
-I used Bootstrap for some of the layout and styling, and Font Awesome for the icons.
+- Bootstrap 5.3.3 - Used for the website layout and styling.
+  Source: https://getbootstrap.com/
+  Author: The Bootstrap Team.
+
+- Font Awesome 6.7.2 - Used for icons on the website.
+  Source: https://fontawesome.com/
+  Author: Fonticons, Inc.
+
+- ChatGPT (OpenAI) - Used to help create the Bitmoji-style avatar used on my portfolio website.
+  Source: https://chatgpt.com/
+  Author: OpenAI.
