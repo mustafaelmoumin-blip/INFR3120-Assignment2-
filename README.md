@@ -1,53 +1,49 @@
-# INFR3120 Assignment 2 – Express Portfolio Website
+# INFR3120 Assignment 2 - Portfolio Website
 
-## Project Description
+## About the Project
 
-## Here is my live website
-https://mustafa-portfolio-kmbg.onrender.com/about
+This is my portfolio website for Assignment 2 in INFR3120 - Web and Scripting Programming at Ontario Tech University.
 
-This project is a personal portfolio website I created for my INFR3120 – Web and Scripting Programming course at Ontario Tech University.
+I made this website to introduce myself and share information about my education, career goals, and interests in networking and IT security.
 
-The website is about me, my education, career goals, interests in technology, and some projects related to networking and IT security.
+## Live Website
 
-## Technologies Used
+https://mustafa-portfolio-kmbg.onrender.com/
+
+## What I Used
 
 - Node.js
 - Express.js
-- EJS (Embedded JavaScript)
-- HTML
-- CSS
-- Bootstrap 5.3.3
-- Font Awesome 6.7.2
+- EJS
+- HTML and CSS
+- Bootstrap
+- Font Awesome
 
-## Website Pages
+## Pages
 
-My portfolio website has four main pages:
+The website has four pages:
 
-1. **Home:** A short introduction about me and my future goals.
-2. **About Me:** Information about my background, education, and interests.
-3. **Projects:** Information about my interests and experience in networking and cybersecurity.
-4. **Contact Me:** Links where people can connect with me.
+- **Home** - A short introduction about me and my career goals.
+- **About Me** - Information about my education and interests.
+- **Projects** - Some of the areas and projects I have worked on or am interested in.
+- **Contact Me** - A way to connect with me through my social media and professional profiles.
 
-## Project Structure
+## Project Files
 
-- `bin/` – Starts the website.
-- `public/` – Stores images, CSS, and JavaScript files.
-- `routes/` – Contains the website routes.
-- `views/` – Contains the EJS pages.
-- `app.js` – Sets up the Express application.
-- `package.json` – Contains the project information and required packages.
+- `routes` contains the routes for each page.
+- `views` contains the EJS files.
+- `public` contains the CSS and images.
+- `app.js` sets up the Express application.
 
-## How to Run the Project
+## Running the Website
 
-1. Make sure Node.js is installed.
-2. Open the project folder in the terminal.
-3. Type `npm install` to install the required packages.
-4. Type `npm start` to run the website.
-5. Open your browser and go to `http://localhost:3000`.
+To run the website:
 
-## External Resources
+1. Open the project folder in a terminal.
+2. Run `npm install`.
+3. Run `npm start`.
+4. Open `http://localhost:3000` in your browser.
 
-I used the following resources to help build and style my website:
+## Resources Used
 
-- **Bootstrap 5.3.3:** Used to help with the website layout and styling. [https://getbootstrap.com/](https://getbootstrap.com/)
-- **Font Awesome 6.7.2:** Used for icons such as GitHub and LinkedIn. [https://fontawesome.com/](https://fontawesome.com/)
+I used Bootstrap for some of the layout and styling, and Font Awesome for the icons.
